@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cadastre seu interesse em ajudar a ONG Esperança.">
+    <title>Quero ajudar | ONG Esperança</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">♥</span>
+                <span>ONG <strong>Esperança</strong></span>
+            </a>
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+            <nav class="nav" aria-label="Navegação principal">
+                <a href="index.html">Início</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="cadastro.html" class="nav-button active-button">Quero ajudar</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero form-hero">
+            <div class="container">
+                <span class="tag">QUERO AJUDAR</span>
+                <h1>Faça parte da ONG Esperança.</h1>
+                <p>Preencha seus dados e escolha como gostaria de contribuir.</p>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <div class="container form-layout">
+                <div class="form-info">
+                    <h2>Como você quer ajudar?</h2>
+                    <p>
+                        Seu cadastro não representa uma doação automática. Ele serve para
+                        que nossa equipe conheça seu interesse e entre em contato com as orientações.
+                    </p>
+                    <div class="info-item">
+                        <span>01</span>
+                        <div><strong>Escolha uma forma de ajudar</strong><p>Doe roupas, alimentos ou ofereça seu tempo.</p></div>
+                    </div>
+                    <div class="info-item">
+                        <span>02</span>
+                        <div><strong>Preencha o formulário</strong><p>Informe seus dados básicos para contato.</p></div>
+                    </div>
+                    <div class="info-item">
+                        <span>03</span>
+                        <div><strong>Aguarde nossa equipe</strong><p>Entraremos em contato com os próximos passos.</p></div>
+                    </div>
+                </div>
+
+                <form id="cadastroForm" class="form-card">
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="nome">Nome completo *</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+                        </div>
+                        <div class="field">
+                            <label for="tipo">Como quer ajudar? *</label>
+                            <select id="tipo" name="tipo" required>
+                                <option value="">Selecione uma opção</option>
+                                <option value="roupas">Doar roupas</option>
+                                <option value="alimentos">Doar alimentos</option>
+                                <option value="voluntario">Ser voluntário</option>
+                                <option value="outro">Outra forma de ajudar</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte um pouco sobre como gostaria de contribuir..."></textarea>
+                    </div>
+
+                    <label class="checkbox">
+                        <input type="checkbox" id="consentimento" required>
+                        <span>Concordo em fornecer meus dados para que a ONG Esperança entre em contato sobre minha solicitação. *</span>
+                    </label>
+
+                    <button type="submit" class="btn btn-primary btn-full">Enviar cadastro</button>
+                    <p id="formMessage" class="form-message" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="index.html" class="logo footer-logo"><span class="logo-icon">♥</span><span>ONG <strong>Esperança</strong></span></a>
+                <p>Solidariedade, cuidado e esperança para transformar vidas.</p>
+            </div>
+            <div>
+                <h4>Navegação</h4>
+                <a href="index.html">Início</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="cadastro.html">Quero ajudar</a>
+            </div>
+            <div>
+                <h4>Contato</h4>
+                <p>contato@ongesparanca.org</p>
+                <p>(11) 99999-9999</p>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 ONG Esperança. Projeto demonstrativo.</div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
