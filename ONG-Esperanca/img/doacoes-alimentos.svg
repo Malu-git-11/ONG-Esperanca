@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+<title id="title">Alimentos para doação</title><desc id="desc">Ilustração de uma caixa com arroz, feijão, legumes e alimentos não perecíveis.</desc>
+<rect width="640" height="420" rx="24" fill="#fff1dd"/><circle cx="500" cy="86" r="48" fill="#f9dfb7"/><path d="M74 334h492" stroke="#e7c99f" stroke-width="5" stroke-linecap="round"/>
+<path d="M122 184h395l-27 150H148l-26-150Z" fill="#c17a35"/><path d="M122 184h395l-18 37H141l-19-37Z" fill="#d88a32"/><path d="M149 224h341" stroke="#a86122" stroke-width="4"/>
+<rect x="171" y="126" width="70" height="103" rx="8" fill="#f6f3e6" stroke="#d7cbb0" stroke-width="3"/><rect x="183" y="142" width="46" height="35" rx="4" fill="#d88a32"/><path d="M184 188h44m-44 9h44" stroke="#b8aa8b" stroke-width="3"/>
+<rect x="257" y="109" width="74" height="120" rx="8" fill="#f7f7f2" stroke="#d7cbb0" stroke-width="3"/><rect x="268" y="128" width="52" height="36" rx="4" fill="#176b57"/><path d="M269 176h49m-49 9h49" stroke="#b8aa8b" stroke-width="3"/>
+<rect x="348" y="143" width="67" height="86" rx="8" fill="#e6b44f"/><path d="M360 160h43m-43 10h43" stroke="#b67b20" stroke-width="3"/>
+<path d="M436 184c-18-17-11-43 10-48 18-4 27 12 25 25 15-16 35-10 38 8 4 22-24 38-37 46l-36-31Z" fill="#7fae70" stroke="#4d8051" stroke-width="3"/>
+<path d="M218 110c-7-25 13-44 31-32 10-22 39-12 39 8 0 16-21 32-36 42" fill="#d88a32"/><path d="M248 128c-12-17-9-35 1-45" stroke="#a86122" stroke-width="4" fill="none"/>
+<circle cx="476" cy="91" r="19" fill="#e58a62"/><path d="M476 73c-4-13 11-21 21-12-2 10-9 15-21 12Z" fill="#5e9a63"/>
+<path d="M83 110l7 14 15 2-11 10 3 15-14-7-13 7 2-15-11-10 15-2 7-14Z" fill="#d88a32" opacity=".8"/>
+</svg>
